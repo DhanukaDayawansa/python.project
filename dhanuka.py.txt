@@ -1,0 +1,6 @@
+import hashlib
+
+result = hashlib.md5(b'Sri Lanka')
+
+print("The byte equivalent of Sri Lanka is : ", end ="")
+print(result.digest())
